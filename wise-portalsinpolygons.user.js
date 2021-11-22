@@ -2,11 +2,11 @@
 // @id             iitc-plugin-portalsinpolygons@hayeswise
 // @name           IITC plugin: Portals-in-Polygons
 // @category       Layer
-// @version        1.2021.11.22
+// @version        1.2021.11.23
 // @namespace      https://github.com/hayeswise/ingress-intel-total-conversion
 // @description    Display a list of portals in, on on the perimeter of, polygons and circles, and on lines.  Use the layer group check boxes to filter the portals.
-// @updateURL      https://github.com/hayeswise/iitc-shadowops/raw/master/dist/plugins/wise-portalsinpolygons.meta.js
-// @downloadURL    https://github.com/hayeswise/iitc-shadowops/raw/master/dist/plugins/wise-portalsinpolygons.user.js
+// @updateURL      https://github.com/Wintervorst/iitc-portalsinpolygons/raw/master/wise-portalsinpolygons.user.js
+// @downloadURL    https://github.com/Wintervorst/iitc-portalsinpolygons/raw/master/wise-portalsinpolygons.user.js
 // @include        https://intel.ingress.com/*
 // @include        http://intel.ingress.com/*
 // @match          https://intel.ingress.com/*
@@ -384,7 +384,7 @@ plugin_info.pluginId = 'wise-portalsinpolygons';
      * @type {Object.<string, string>}
 	 */
     self.layerChooserName = {
-        0: "Unclaimed Portals",
+        0: "Unclaimed/Placeholder Portals",
         1: "Level 1 Portals",
         2: "Level 2 Portals",
         3: "Level 3 Portals",
@@ -395,7 +395,7 @@ plugin_info.pluginId = 'wise-portalsinpolygons';
         8: "Level 8 Portals",
         Resistance: "Resistance",
         Enlightened: "Enlightened",
-        Neutral: "Unclaimed Portals"
+        Neutral: "Unclaimed/Placeholder Portals"
     };
 
     /**
